@@ -1,27 +1,26 @@
-# Member 4: Payment & Pricing System 💳
+# Member 5: Admin Dashboard & Management 👨‍💼
 
 ## Your Responsibilities
 
-You are responsible for the **Payment and Pricing** system of ParkEase.
+You are responsible for the **Admin Dashboard and Management** system of ParkEase.
 
 ### Backend Components
-- **Controllers**: `PaymentController.java`, `AdminPricingController.java`, `PromotionController.java`
-- **Models**: `Payment.java`, `Pricing.java`, `Promotion.java`
-- **Repositories**: `PaymentRepository.java`
-- **Services**: `PaymentService.java`, `PricingService.java`
+- **Controllers**: `AdminController.java`, `SubscriptionController.java`, `NotificationController.java`
+- **Models**: `Subscription.java`, `Notification.java`
+- **Services**: `AdminService.java`, `NotificationService.java`
 
 ### Frontend Components
-- **Pages**: `Payment.jsx`
-- **Components**: `PaymentModal.jsx`
-- **Services**: `paymentService.js`, `pricingService.js`, `promotionService.js`
+- **Pages**: `Dashboard.jsx`, `LocationManagement.jsx`, `SlotManagement.jsx`
+- **Components**: `LocationFormInline.jsx`, `BookingList.jsx`
+- **Services**: `adminService.js`, `notificationService.js`
 
 ## Key Features to Implement
-- ✅ Payment processing
-- ✅ Pricing calculations
-- ✅ Promotion/discount logic
-- ✅ Payment history
-- ✅ Auto-opening payment modal
-- ✅ Payment status tracking
+- ✅ Admin dashboard overview
+- ✅ Location management
+- ✅ Slot management
+- ✅ Subscription management
+- ✅ Notification system
+- ✅ User management
 
 ## Getting Started
 
@@ -29,18 +28,19 @@ You are responsible for the **Payment and Pricing** system of ParkEase.
 ```bash
 git checkout develop
 git pull origin develop
-git checkout -b feature/payment-gateway-integration
+git checkout -b feature/admin-dashboard
 ```
 
 ### 2. Review the files in this folder
-- Study payment flow
-- Understand pricing calculation
-- Review promotion application logic
+- Study admin dashboard layout
+- Understand location and slot management
+- Review subscription and notification logic
 
 ### 3. Make your changes
-- Integrate payment gateway
-- Implement discount logic
-- Test payment scenarios
+- Implement admin dashboard
+- Add location/slot management features
+- Integrate subscription and notification systems
+- Test admin functionalities
 
 ### 4. Submit Pull Request
 - Push to your feature branch
@@ -49,17 +49,18 @@ git checkout -b feature/payment-gateway-integration
 
 ## Integration Points
 You'll need to coordinate with:
-- **Member 2**: Receive booking data for payment
-- **Member 5**: Admin pricing and promotion management
-- **Member 6**: Payment data for revenue reports
+- **Member 1**: User data for management
+- **Member 2**: Booking data for admin overview
+- **Member 3**: Location and slot data for management
+- **Member 4**: Pricing and subscription data
 
 ## Testing Checklist
-- [ ] Payment modal opens automatically after checkout
-- [ ] Pricing is calculated correctly
-- [ ] Promotions are applied properly
-- [ ] Payment confirmation updates booking status
-- [ ] Payment history displays correctly
-- [ ] Failed payments are handled gracefully
+- [ ] Admin dashboard loads correctly
+- [ ] Location management features work
+- [ ] Slot management updates properly
+- [ ] Subscription management is functional
+- [ ] Notification system sends alerts
+- [ ] User management permissions are enforced
 
 ## Contact
-For questions about payment processing, reach out in the team chat!
+For questions about admin dashboard and management, reach out in the team chat!
